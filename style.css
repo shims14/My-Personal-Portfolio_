@@ -224,7 +224,7 @@ nav {
 
 .skills-list li {
     color: #f3eaef;
-    background: ;
+    background: #FF1493 ;
     padding: 10px 20px;
     border-radius: 25px;
     font-weight: 600;
@@ -474,7 +474,7 @@ nav {
     border-radius: 30px;
     cursor: pointer;
     color:#FFC0CB
-    box-shadow: 0 0 15px  #ff69b4;
+    box-shadow: 0 0 15px
     transition: background-color 0.3s ease;
 }
 
@@ -485,7 +485,7 @@ nav {
 /* Footer */
 footer {
     background: #f4f8f3;
-    color:  #FF1493;
+    color: #FF1493;
     text-align: center;
     padding: 20px 0;
     font-size: 0.9rem;
@@ -493,11 +493,14 @@ footer {
 }
 
 /* Responsive */
-@media (max-width: 768px) {
+@media (max-width: 768px) 
+{
     .about-content,
     .contact-content {
         flex-direction: column;
         text-align: center;
+        flex: 1 1 100%;
+        max-width: 100%;
     }
 
     .about-text,
